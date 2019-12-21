@@ -1,5 +1,5 @@
 {
-    "id": "374bee2208ff5e980653c43aa5c334c1",
+    "id": "c1a5bf61df0333f5e69d35ad36872deb",
     "name": "Ge.tt  REST API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "f1cc2b3bb0bbae091fcee7b5f22b6dc0",
+            "id": "3fd7f61eeba1544151af1999a6038238",
             "name": "Files Create",
             "url": "httpsopen.ge.tt\/1\/1\/files\/{sharename}\/create",
             "description": "To upload files to Ge.tt you must first create the file under a given share. You do that by posting the filename:",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "21d117cb10c8db099b0c48dbd3d13489",
+            "id": "2c69e934208d3f940deb6556c4664d11",
             "name": "Files",
             "url": "httpsopen.ge.tt\/1\/1\/files\/{sharename}\/{fileid}",
             "description": "Get the state of a file. This returns the following data:",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "b5be406922187446e2787d15c8fde17f",
+            "id": "549fdfcaecd99d06a38bbed865eee156",
             "name": "Files  Blob",
             "url": "httpsopen.ge.tt\/1\/1\/files\/{sharename}\/{fileid}\/blob",
             "description": "Will redirect to the binary content of the file",
@@ -120,11 +120,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "facd703a268c011062c2f874143a684d",
+            "id": "a5c56be8be2d58a84dba07b3b78201da",
             "name": "Files  Blob Thumb",
             "url": "httpsopen.ge.tt\/1\/1\/files\/{sharename}\/{fileid}\/blob\/thumb",
             "description": "Will redirect to a thumbnail of the binary file. Currently only available for images.",
@@ -158,11 +158,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "72587916d3403fcd081868b344a14675",
+            "id": "dea12f73d5c273696dc86ca6a0f9b213",
             "name": "Files  Destroy",
             "url": "httpsopen.ge.tt\/1\/1\/files\/{sharename}\/{fileid}\/destroy",
             "description": "Delete a file and the binary contents.",
@@ -203,11 +203,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "a41578eff67d57abb6336dec45b17a46",
+            "id": "3ea9ed5289c9a1d4bae98b0ab14734b7",
             "name": "Files  Upload",
             "url": "httpsopen.ge.tt\/1\/1\/files\/{sharename}\/{fileid}\/upload",
             "description": "Get upload urls to the file. This returns a new PUT and POST url for you to upload the file to.nOBS You can also choose to use the put- or posturl that you were previously given to override the file.",
@@ -248,11 +248,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "296d357ad9b9eac31c894c1b88f6bb01",
+            "id": "bd0c4982a114d7b75169226553d40571",
             "name": "Shares",
             "url": "httpsopen.ge.tt\/1\/1\/shares",
             "description": "Returns all your shares and the containing files:",
@@ -279,11 +279,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "779060f7b8cfb2c34fa91cac5c283538",
+            "id": "86a216821be721d87cf5493913553031",
             "name": "Shares Create",
             "url": "httpsopen.ge.tt\/1\/1\/shares\/create",
             "description": "Creates a new share. The request body is optional but can look like:",
@@ -310,11 +310,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "6bc86c2a7e93e34ec8fc13d2be98a615",
+            "id": "2077a002c82fb6b4c80153e726fbeb85",
             "name": "Shares",
             "url": "httpsopen.ge.tt\/1\/1\/shares\/{sharename}",
             "description": "Lists a share.",
@@ -341,11 +341,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "c934a790e5e080341194e6e8a5d10b9f",
+            "id": "dde85a850ca657b8429e804b51dfec87",
             "name": "Shares Destroy",
             "url": "httpsopen.ge.tt\/1\/1\/shares\/{sharename}\/destroy",
             "description": "Delete a share and all of its files.",
@@ -379,11 +379,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "40e318a881d772a7e6fda6fe161b6c87",
+            "id": "7b09d2b4c0b6137b131eb7eddcbef564",
             "name": "Shares Update",
             "url": "httpsopen.ge.tt\/1\/1\/shares\/{sharename}\/update",
             "description": "Updates a share. Currently you can only update the title",
@@ -417,11 +417,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "794f02faac1acbf5e0605667701ae414",
+            "id": "3b7dae6507b9c6f0c21fe785e4a65bc9",
             "name": "Users Login",
             "url": "httpsopen.ge.tt\/1\/1\/users\/login",
             "description": "The API is based on oauth with an xauth handshake. The request body looks like this:",
@@ -440,11 +440,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         },
         {
-            "id": "08af4179ec9ae81fbde3b871e48685e3",
+            "id": "3989b64716b84fe239d807a2c7ce8439",
             "name": "Users Me",
             "url": "httpsopen.ge.tt\/1\/1\/users\/me",
             "description": "Returns your user information:",
@@ -471,7 +471,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "374bee2208ff5e980653c43aa5c334c1",
+            "collectionId": "c1a5bf61df0333f5e69d35ad36872deb",
             "rawModeData": ""
         }
     ]
